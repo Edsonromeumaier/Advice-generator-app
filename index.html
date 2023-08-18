@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Advice generator app</title>
+  <meta name="description" content="advices for you life"> 
+  <meta name="keywords" content="HTML, CSS, API,script">
+  <meta name="author" content="Edsonromeu">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>  
+  
+    <!-- Advice content-->
+    <div class="advice-card">
+
+      <h3 class="advice-id">
+       <span id="advice-id"> ID goes here...</span></h3>   
+
+      <p class="advice">Aguarde, carregando conselho... </p>
+    
+    </div>
+    
+    <div class="refresh">
+
+      <picture src="./images/pattern-divider-desktop.svg">
+      <source media="(min-width:768px)"src="./images/pattern-divider-desktop.svg">
+      <img src="./images/pattern-divider-mobile.svg">
+      </picture>
+
+   <!-- Button for refresh Advice--> 
+      <button class="generateButton" id="generate">
+        <span class="button-text"></span>
+        <span class="timer">10</span>
+        <img src="./images/icon-dice.svg" alt="button for generate another advice">
+      </button>
+    </div>  
+    
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Edsonromeumaier">Edsonromeu</a>.
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

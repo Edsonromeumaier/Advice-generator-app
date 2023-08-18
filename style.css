@@ -1,0 +1,107 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@800&family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&family=Outfit:wght@400;700&family=Overpass:wght@500;700&display=swap');
+ :root {
+   --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+
+ }
+ body {
+   margin: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+   font-family: Arial, sans-serif;
+   background-color: var(--DarkBlue);
+ }
+ 
+ main {
+   text-align: center;
+   background-color: var(--DarkGrayishBlue);
+   max-width: 27.6rem;               
+   border-radius: 10px;
+   margin-top: 15vh;
+   margin-left: 1rem;
+   margin-right: 1rem;   
+   padding: 1.8rem 1.5rem 2rem;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .advice-card {
+  
+   margin: auto;
+   padding: 20px;
+
+ }
+
+ .advice-cont{
+  font-size: small;
+  font-weight: 200;
+  font-family: 'Karla',sans-serif;
+
+ }
+ .advice-id {
+  color: var(--NeonGreen);
+ }
+ .advice {
+   font-family:'Manrope', sans-serif ;  
+   margin-top: 10px;
+   color: var(--LightCyan);
+   font-size: 28px;
+   font-weight: 800;
+ }
+ .refresh{
+  display: flex;
+  flex-direction: column;
+ }
+ .refresh picture{
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1.8rem ;
+ }
+ .refresh picture img{
+  width: 100%;
+ }
+ .generateButton {
+   margin:0 auto -50px;
+   background-color:var(--NeonGreen);
+   color: white;
+   border: none;
+   border-radius: 50%;
+   padding: 15px 16px 12px;
+   cursor: pointer;
+   transition: 1s ease;
+   position: relative;
+ }
+ .timer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.generateButton.active .timer {
+  opacity: 1;
+}
+ .generateButton:hover{  
+  box-shadow: 0 0 40px var(--Neon-Green);
+ }
+ .attribution { 
+  background-color: var(--DarkGrayishBlue);
+  position: absolute;  
+  text-align: center;
+  font-size: 12px;
+  bottom: 0;
+ }
+ 
+ /* Responsividade */
+ @media (max-width: 768px) {
+   .advice-card {
+     width: 80%;
+   }
+ }
+ 
