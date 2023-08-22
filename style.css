@@ -88,7 +88,7 @@
   opacity: 1;
 }
  .generateButton:hover{  
-  box-shadow: 0 0 40px var(--Neon-Green);
+  box-shadow: 0 0 40px var(--NeonGreen);
  }
  .attribution { 
   background-color: var(--DarkGrayishBlue);
