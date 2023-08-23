@@ -6,8 +6,8 @@ async function fetchAdvice() {
         const data = await response.json();
         return data;
     } catch (error) {
-        console.error("Erro ao buscar conselho:", error);
-        return { error: "Ocorreu um erro ao buscar o conselho." };
+        console.error("Error to get advice", error);
+        return { error: "wait a few moments before request again." };
     }
 }
 

@@ -21,8 +21,8 @@
 
 ### Links
 
-- repo URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/Edsonromeumaier/Advice-generator-app))
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://advice-generator-app-alpha-nine.vercel.app/))
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
 
