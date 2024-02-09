@@ -8,10 +8,10 @@
 
 ![code2](./screenshot/code2.png)
 
-### Link
+### Links
 
 
-- Live Site URL(building): ()
+- Live Site URL: [Add live site URL here](https://advice-generator-app-alpha-nine.vercel.app/)
 
 
 

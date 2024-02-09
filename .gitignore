@@ -16,3 +16,4 @@
 .prettierignore
 README-template.md
 style-guide.md
+package.json
