@@ -1,28 +1,17 @@
 # Advice generator app
 
- ***This ap give you a philosophical advice for your life
+ 
+
+## Screenshot
+
+![code1](./screenshot/code1.png)
+
+![code2](./screenshot/code2.png)
+
+### Link
 
 
-## _Table of contents
-  
-  - [Screenshot](#screenshot)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-   - [Useful resources](#useful-resources)
-- [Author](#author)
-
-
-
-### Screenshot
-
-[code1](./screenshot/code1.png)
-
-[code2](./screenshot/code2.png)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL(building): ()
 
 
 
@@ -54,8 +43,6 @@ In this exposition, I delve into the realm of API fetching and the acquisition o
 
 ## Author
 
-- Website - [Edsonromeumaier](https://www.your-site.com)
-- Frontend Mentor - [@Edsonromeumaier](https://www.frontendmentor.io/profile/Edsonromeumaier)
 - Codepen - [_romeu](https://codepen.io/_romeu)
 
 
